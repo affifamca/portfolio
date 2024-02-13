@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+   /*font-family: 'Dancing Script', cursive;*/
+}
+#container{
+    width: 90%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 200px;
+}
+.list-items{
+    display: inline;
+    list-style: none;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+/*css psuedo class 
+selectors:pseudo-class{
+    property:value;
+}
+*/
+.links:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home-images{
+    width:65%;
+    height: 30%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    top: 50px;
+}
+.group1{
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform :translateX(-40%);
+    transition:bottom2s, left1s;
+}
+.home-images:hover #shape{
+    bottom: 70px;
+}
+.home-images:hover#girl{
+    left: 100%;
+}
+#about{
+margin: 15% 8% 0px 8%;    
+}
+.section-head{
+text-align: center;
+}
+.main-head{
+    font-size: 30px;
+}
+.subhead{
+    font-size:small;
+    color : black;
+}
+.about-body{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.about-img>img{
+    width: 100%;
+    height: 350px;
+}
+.about-contents{
+    font-size: 16px;
+    text-align: justify;
+    width: 80%;
+}
+.information{
+    margin-top: 1rem;
+}
+.info-box{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.info-box>span{
+    margin-left: 1rem;
+}
+#skill{
+    margin: 8% 8% 0% 8%;
+}
+.selection-head{
+    text-align: center;
+    font-size: 30px;
+}
+.skill-content{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 20px;
+    align-items: center;
+}
+.myskill{
+width: 100%;
+text-align: center;
+color: green;
+font-size: 20px;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    position: relative;
+}
+.bar-head,.bar-percent{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0px;
+}
+.html-bar{
+    width: 90%;
+    background-color: orange;
+
+    
+    
+}
+.js-bar{
+    width: 80%;
+    background-color: orange;
+}
+.css-bar{
+    width: 90%;
+    background-color: orange;
+}
+.react-bar{
+    width: 70%;
+    background-color: orange;
+}
+#contact{
+    margin: 8%;
+}
+.subhead{
+    color: green;
+}
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: solid 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 500px;
+}
+.icon-hover{
+    background-image: linear-gradient(to bottom right
+    ,red ,white,blue,orange,yellow,green);
+}
+
+.brand{
+    color: black;
+    font-size: 30px;
+}
+.up-arrow{
+    float: right;
+    margin: -40px 30px 30px 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background: azure;
+}
+::-webkit-scrollbar-thumb{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
